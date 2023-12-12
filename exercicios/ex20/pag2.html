@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: darkgrey;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div>p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            color: white;
+            background-color: blue;
+        }
+        div:hover{
+color: red;
+        }
+        a{
+            color: darkred;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: rgb(128, 165, 42);
+        }
+        a:hover{
+            text-decoration: underline;
+            color: cornflowerblue;
+        }
+        a:active{
+            color: darkorange;
+        }
+        a::after{
+           content: '☯';
+           color: black;
+        }
+        a::before{
+            content: '☯';
+color: black;
+        }
+       
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    Texto escondido
+    <div>Passe o mause sobre o texto para ter uma surpresa
+        <p>Seu TROUXA!!!!</p>
+    </div>
+    <p>otario</p>
+    <p><a href="https://www.youtube.com/watch?v=Y53hiZETuig" target="_blank" rel="external">acesse o cana no Youtube</a></p>
+    <p><a href="https://github.com/gustavoguanabara/html-css/tree/master/desafios/modulo-01/d009/imagens" target="_blank" rel="external">Acesse tambem nosso github</a></p>
+    <p><a href="https://www.instagram.com/tesou.rosdashopee/" target="_blank" rel="external">Entre em contato</a></p>
+    <a href="index.html" rel="prev"><img src="voltar.png"></a>
+
+    <div id="menu">
+        Menu
+        <p>Inicio</p>
+        <p>categorias</p>
+
+    </div>
+</body>
+</html>

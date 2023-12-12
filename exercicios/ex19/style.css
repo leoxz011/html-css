@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(196, 255, 252);
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+#principal{
+    text-align: center;
+    background-color: rgb(7, 119, 119);
+    color: aliceblue;
+}
+.basico{
+    color: rgb(111, 158, 57);
+}
+.intermediario{
+    color: rgb(180, 190, 36);
+}
+.avançado{
+    color: rgb(158, 57, 57);
+}
+h1{
+    color: rgb(7, 119, 119);
+}
+p{
+    text-align: justify;
+}

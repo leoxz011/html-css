@@ -1,0 +1,21 @@
+#logos{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-family:'Courier New';
+    size: 80px;
+}
+#css{
+    height: 270px;
+    width: 200px;
+}
+
+#html{
+    height: 270px;
+    width: 200px;
+}
+#java{
+    height: 220px;
+    width: 200px;
+}

@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'cosmo';
+    src: url(font/idroid.otf);
+}
+@import url('https://fonts.googleapis.com/css2? family= Nunito+Sans:ital,opsz,wght@1,6..12,300 & display=swap');
+
+body{
+    background-color: rgb(243, 245, 179);
+    margin: 0%;
+    
+}
+header{
+    height: 150px;
+    text-align: center;
+    background-image: linear-gradient(rgb(69, 223, 120),black);
+    min-height: 150px;
+    padding-top: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.295);
+    
+}
+header > h1{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: lighter;
+    text-shadow: 1px 0px 5px rgba(0, 0, 0, 0.548);;
+}
+header > p{
+    color: white;
+    text-shadow: 1px 0px 5px rgba(0, 0, 0, 0.548);;
+    font-family: 'Nunito Sans', sans-serif;
+}
+nav{
+    text-align: left;
+    background-color:black;
+   
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding-left: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+    color: rgb(44, 226, 44);
+
+}
+main{
+    background-color: white;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 800px; 
+    height: auto;
+    margin:auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.377);
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    margin: auto;
+}
+main img{
+    width: 100%;
+}
+main  a{
+    background-color: rgba(210, 233, 171, 0.637);
+    text-decoration: none;
+    color: green;
+}
+main  a:hover{
+    background-color: rgb(106, 233, 106);
+    transition-duration: 0.5s;
+}
+#android{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+h1{
+    font-family: 'cosmo',sans-serif;
+    color: rgb(31, 110, 31);
+}
+h2{
+    font-family: 'cosmo',sans-serif;
+    color:rgb(31, 110, 31) ;
+    text-align: left;
+}
+#video{
+    background-color: darkgreen;
+    max-width: 800px;
+    min-width: 300px;
+    margin: 0px -20px 30px -20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-bottom: 10%;
+    position: relative;
+    border: 50px;
+}
+#video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+aside{
+font-family: sans-serif;
+background-color: rgb(110, 187, 123);
+border-radius: 10px;
+height: 380px;
+}
+aside > h2{
+    font-family: sans-serif;
+    background-color:forestgreen ;
+    color: white;
+    font-weight: lighter;
+    border-radius: 10px;
+    padding-left: 10px;
+   
+}
+aside > p{
+    margin: auto;
+    padding-left: 10px;
+    padding-right:10px ;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.863);
+    color: white;
+    height: 20px;
+    text-align: center;
+    margin-top: 30px;
+    
+    
+
+}
+
+strong{
+    color: forestgreen;
+}
+    li{
+        text-align: left;
+    }
+    ul{
+        columns: 2;
+    }

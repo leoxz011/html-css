@@ -1,0 +1,11 @@
+body{
+    background-image: url(fotos/ogroh.avif);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin: none;
+}
+h1{
+    background-color: chartreuse;
+   
+}

@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+header{
+    text-align: center;
+}
+header > h1{
+    border:solid rgb(122, 42, 122) ;
+    color: white;
+    background-color: rgb(235, 213, 10);
+   width: 500px;
+   border-radius: 20px;
+   
+    }
+nav{
+    background-color: rgb(122, 42, 122);
+    padding: 10px;
+    text-align: center;
+}
+nav > a{
+    color: rgb(255, 255, 255);
+    margin-right: 30px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: dashed;
+    color: rgb(235, 213, 10);
+}
+main{
+    padding: 10px;
+    background-color: rgb(255, 206, 81);
+    margin: 20px;
+}
+section > h1{
+    color: rgb(122, 42, 122);
+}
+aside{
+    background-color: rgb(122, 42, 122);
+    color: white;
+    margin: 0;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+article{
+    text-align: center;
+}
+h1{
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.363);
+}
+
+    
