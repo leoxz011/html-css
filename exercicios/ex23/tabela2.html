@@ -7,6 +7,12 @@
     <style>
         table {
             border-collapse: collapse;
+            position: relative;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1;
+            background-color: gray;
         }
 
         th {
@@ -28,15 +34,24 @@
         .posi {
             width: 50px;
         }
-        .num{
+
+        .num {
             text-align: right;
+        }
+
+        tbody>tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+
+        caption {
+            text-align: center;
         }
     </style>
     <title>Tabela grande</title>
 </head>
 
 <body>
-    <h1>Lista de unidades federativas do Brasil por população</h1>
+    <caption>Lista de unidades federativas do Brasil por população</caption>
     <table>
         <thead>
             <th class="posi" scope="col">Posição</th>
@@ -70,13 +85,41 @@
                 <td>Paraná</td>
                 <td class="num">11 444 380</td>
             </tr>
+            <tr>
+                <td>6</td>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 882 965</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Pernanbuco</td>
+                <td class="num">9 058 931 </td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Ceará</td>
+                <td class="num">8 794 957</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Pará</td>
+                <td class="num">8 121 025</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td class="num">7 610 361	</td>
+            </tr>
         </tbody>
 
         <tfoot>
             <th class="posi" scope="row">População total</th>
-            <td class="num">106.590.486</td>
+            <td class="num">Muitos</td>
         </tfoot>
     </table>
+    <h1>BLA BLA BLA</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, voluptatibus. Odit iure quae non aut fuga! Aspernatur voluptatem delectus corporis dolores vitae totam earum eius sint, itaque, voluptates hic esse. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas eum ullam obcaecati magnam qui iure maxime veritatis repellendus, blanditiis praesentium et aperiam delectus recusandae vero molestias ducimus ex, inventore optio? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est eum cupiditate aut voluptatum vitae ducimus voluptatibus architecto, reiciendis recusandae voluptate adipisci cum molestias. Minus voluptate, expedita impedit quae libero ipsa.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, voluptatibus. Odit iure quae non aut fuga! Aspernatur voluptatem delectus corporis dolores vitae totam earum eius sint, itaque, voluptates hic esse. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas eum ullam obcaecati magnam qui iure maxime veritatis repellendus, blanditiis praesentium et aperiam delectus recusandae vero molestias ducimus ex, inventore optio? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est eum cupiditate aut voluptatum vitae ducimus voluptatibus architecto, reiciendis recusandae voluptate adipisci cum molestias. Minus voluptate, expedita impedit quae libero ipsa.</p> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, voluptatibus. Odit iure quae non aut fuga! Aspernatur voluptatem delectus corporis dolores vitae totam earum eius sint, itaque, voluptates hic esse. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas eum ullam obcaecati magnam qui iure maxime veritatis repellendus, blanditiis praesentium et aperiam delectus recusandae vero molestias ducimus ex, inventore optio? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est eum cupiditate aut voluptatum vitae ducimus voluptatibus architecto, reiciendis recusandae voluptate adipisci cum molestias. Minus voluptate, expedita impedit quae libero ipsa.</p> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, voluptatibus. Odit iure quae non aut fuga! Aspernatur voluptatem delectus corporis dolores vitae totam earum eius sint, itaque, voluptates hic esse. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas eum ullam obcaecati magnam qui iure maxime veritatis repellendus, blanditiis praesentium et aperiam delectus recusandae vero molestias ducimus ex, inventore optio? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est eum cupiditate aut voluptatum vitae ducimus voluptatibus architecto, reiciendis recusandae voluptate adipisci cum molestias. Minus voluptate, expedita impedit quae libero ipsa.</p> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, voluptatibus. Odit iure quae non aut fuga! Aspernatur voluptatem delectus corporis dolores vitae totam earum eius sint, itaque, voluptates hic esse. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas eum ullam obcaecati magnam qui iure maxime veritatis repellendus, blanditiis praesentium et aperiam delectus recusandae vero molestias ducimus ex, inventore optio? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est eum cupiditate aut voluptatum vitae ducimus voluptatibus architecto, reiciendis recusandae voluptate adipisci cum molestias. Minus voluptate, expedita impedit quae libero ipsa.</p> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, voluptatibus. Odit iure quae non aut fuga! Aspernatur voluptatem delectus corporis dolores vitae totam earum eius sint, itaque, voluptates hic esse. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas eum ullam obcaecati magnam qui iure maxime veritatis repellendus, blanditiis praesentium et aperiam delectus recusandae vero molestias ducimus ex, inventore optio? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est eum cupiditate aut voluptatum vitae ducimus voluptatibus architecto, reiciendis recusandae voluptate adipisci cum molestias. Minus voluptate, expedita impedit quae libero ipsa.</p> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, voluptatibus. Odit iure quae non aut fuga! Aspernatur voluptatem delectus corporis dolores vitae totam earum eius sint, itaque, voluptates hic esse. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas eum ullam obcaecati magnam qui iure maxime veritatis repellendus, blanditiis praesentium et aperiam delectus recusandae vero molestias ducimus ex, inventore optio? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est eum cupiditate aut voluptatum vitae ducimus voluptatibus architecto, reiciendis recusandae voluptate adipisci cum molestias. Minus voluptate, expedita impedit quae libero ipsa.</p>
 </body>
 
 </html>
