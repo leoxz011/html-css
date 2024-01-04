@@ -1,0 +1,26 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+caption{
+    font-weight: bolder;
+    color: red;
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+    height: 100px;
+}
+td , th{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+#cnome{
+    background-color: chartreuse;
+}
+#cprofissao{
+    background-color: aquamarine;
+}
+.roxo{
+    background-color: blueviolet;
+}
