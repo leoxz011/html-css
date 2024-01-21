@@ -7,6 +7,18 @@
 </head>
 <body>
     <h1>Formulário</h1>
-    <p><input type="color" id="icor" name="cor"><label for="icor">Color</label></p>
+    <form action="cadastro.php" method="post" autocomplete="on">
+           <p><label for="icor">Escolha uma Cor:</label>
+        <input type="color" value="#ff0000" name="cor" id="icor" required></p>
+
+        <p><label for="inota">Nivel de Satisfação:</label>
+        <input type="range" min="1" max="10" value="5"></p>
+
+        <p><label for="iarq">Envie um arquivo:</label>
+        <input type="file" required></p>
+
+        <p><input type="submit">
+        <input type="reset"></p>
+    </form>
 </body>
 </html>
