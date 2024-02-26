@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(221, 217, 212);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: rgb(201, 197, 197);
+}
+
+header h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+menu {
+    display: block;
+}
+
+menu a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: rgb(121, 119, 119);
+    border-top: 2px solid rgba(0, 0, 0, 0.507);
+}
+
+menu a:hover {
+    background-color: rgb(192, 188, 188);
+}
+
+li {
+    list-style-type: none;
+    ;
+    text-align: center;
+
+}
+
+main {
+    margin-top: 10px;
+    width: 90vw;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+}
+
+main h1 {
+    padding-bottom: 20px;
+}
+
+article>p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
