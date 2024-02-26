@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="media.css">
     <title>Menu</title>
 </head>
-<body>
+<body onresize="mudou()">
     <header>
         <h1>Menu</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickmenu()">
+            menu
+            </span>
         
-            <menu>
+            <menu  id="itens">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Noticias</a></li>
                 <li><a href="#">Parceiros</a></li>
@@ -29,5 +34,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni placeat perferendis, impedit ipsum non, sunt nulla mollitia ipsa in magnam illum modi vitae veniam aspernatur ratione nam! Qui, explicabo distinctio!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quos ipsum quae quidem qui saepe beatae autem, odio cum laudantium excepturi fugiat accusamus labore deleniti consequuntur suscipit voluptates veniam dolorem.</p>
         </section>
     </main>
+
+    <script src="js.js"></script>
 </body>
 </html>
